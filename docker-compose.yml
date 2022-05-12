@@ -1,7 +1,7 @@
 version: "3"
 services:
   eureka-server:
-    image: 112.124.9.109:5000/microservice-eureka-server:1.0-SNAPSHOT
+    image: 127.0.0.1:5000/microservice-eureka-server:1.0-SNAPSHOT
     restart: on-failure
     ports:
       - 8761:8761
@@ -9,7 +9,7 @@ services:
       - microservice-net
 
   gateway-zuul:
-    image: 112.124.9.109:5000/microservice-gateway-zuul:1.0-SNAPSHOT
+    image: 127.0.0.1:5000/microservice-gateway-zuul:1.0-SNAPSHOT
     restart: on-failure
     ports:
       - 8050:8050
@@ -19,7 +19,7 @@ services:
       - eureka-server
 
   order-service:
-    image: 112.124.9.109:5000/microservice-orderservice:1.0-SNAPSHOT
+    image: 127.0.0.1:5000/microservice-orderservice:1.0-SNAPSHOT
     restart: on-failure
     ports:
       - 7900:7900
@@ -29,7 +29,7 @@ services:
       - eureka-server
 
   user-service:
-    image: 112.124.9.109:5000/microservice-userservice:1.0-SNAPSHOT
+    image: 127.0.0.1:5000/microservice-userservice:1.0-SNAPSHOT
     restart: on-failure
     ports:
       - 8030:8030
