@@ -1,0 +1,6 @@
+/root/download/microservice-course-repository-master/microservice-mallmanagement/microservice-userservice/src/main/java/com/gcu/course/po/Order.java
+/root/download/microservice-course-repository-master/microservice-mallmanagement/microservice-userservice/src/main/java/com/gcu/course/po/User.java
+/root/download/microservice-course-repository-master/microservice-mallmanagement/microservice-userservice/src/main/java/com/gcu/course/UserServiceApplication.java
+/root/download/microservice-course-repository-master/microservice-mallmanagement/microservice-userservice/src/main/java/com/gcu/course/mapper/UserMapper.java
+/root/download/microservice-course-repository-master/microservice-mallmanagement/microservice-userservice/src/main/java/com/gcu/course/controller/UserController.java
+/root/download/microservice-course-repository-master/microservice-mallmanagement/microservice-userservice/src/main/java/com/gcu/course/config/SwaggerConfiguration.java
